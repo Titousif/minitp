@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,600");
+
+body {
+    background-color: ;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(244, 239, 239);
+    display: grid;
+    place-items: center;
+
+}
+
+h1 {
+    background-color: gray;
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-align: center;
+    background: url(wallpaperflare.com_wallpaper.jpg) 0 0 / cover no-repeat;
+    color: beige;
+
+}
+
+input[ type="date"] {
+    background: url(wallpaperflare.com_wallpaper.jpg) 0 0 / cover no-repeat;
+    padding: 8px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+    left: 50%;
+    font-family: "Roboto Mono", monospace;
+    color: #f9fafb;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-color: #f9fafb;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.date {
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-align: center;
+    background: url(wallpaperflare.com_wallpaper.jpg) 0 0 / cover no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 40px;
+    text-align: center;
+}
+
+.checbox :not(:last-of-type) {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.checbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-color: #c8dbff;
+    border: 1px solid #c8dbff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 300ms ease, colour 300ms ease, box-shadow 300ms ease;
+}
+
+.nav {
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-align: center;
+    background: url(wallpaperflare.com_wallpaper.jpg) 0 0 / cover no-repeat;
+    color: beige;
+}
+
+.btn {
+
+    padding: 10px 26px;
+
+    background-color: #f9fafb;
+
+    border: 2px solid #111827;
+
+    border-radius: 0.5rem;
+
+    cursor: pointer;
+
+    position: relative;
+
+    transition: all 0.3s;
+
+    font-family: "Titillium Web";
+
+
+}
+
+.btn::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background-color: #111827;
+
+    border-radius: inherit;
+
+    translate: 6px 6px;
+
+    transition: 0.25s;
+
+    z-index: -1;
+
+}
+
+.btn:hover::after {
+
+    translate: 0;
+
+}
+
+.btn:hover {
+
+    background-color: #111827;
+
+    color: #f9fafb;
+
+}
+
+.name {
+    font-family: "Titillium Web";
+    text-transform: uppercase;
+    text-align: center;
+    background: url(wallpaperflare.com_wallpaper.jpg) 0 0 / cover no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
